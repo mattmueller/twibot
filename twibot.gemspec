@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{twibot}
-  s.version = "0.1.6"
+  s.version = "0.1.7.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Christian Johansen"]
@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = ["History.txt", "Readme.rdoc"]
   s.files = ["History.txt", "Rakefile", "Readme.rdoc", "lib/hash.rb", "lib/twibot.rb", "lib/twibot/bot.rb", "lib/twibot/config.rb", "lib/twibot/handlers.rb", "lib/twibot/macros.rb", "lib/twibot/tweets.rb", "test/test_bot.rb", "test/test_config.rb", "test/test_handler.rb", "test/test_hash.rb", "test/test_helper.rb", "test/test_twibot.rb", "twibot.gemspec"]
   s.has_rdoc = true
-  s.homepage = %q{http://github.com/bjeanes/twibot/}
+  s.homepage = %q{http://github.com/mattmueller/twibot/}
   s.rdoc_options = ["--main", "Readme.rdoc"]
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{twibot}
